@@ -4,6 +4,7 @@
 Hello! I’m an **Emerging Technology Expert** with a passion for leveraging modern technologies to solve complex challenges. Currently pursuing my **MCA** at **PwC** in collaboration with **Patna Women's College**, I am committed to continuous learning and professional development in the ever-evolving tech landscape.
 
 ---
+[My Profile page](https://github.com/RoushniSinha/RoushniSinha.github.io)
 
 ## 🛠️ Skills
 - **MERN Stack**: Building scalable web applications with **MongoDB**, **Express.js**, **React**, and **Node.js**.
