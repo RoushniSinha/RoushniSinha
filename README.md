@@ -15,7 +15,7 @@
 </p>
 
 <!-- 8-BIT TYPEWRITER LEVEL ANNOUNCEMENT -->
-<img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=13&pause=1000&color=FCD116&center=true&vCenter=true&width=650&lines=IT'S-A-ME%2C+ROUSHNI!;COLLECTING+COMMITS+LIKE+COINS+IN+WORLD+1-1;JUMPING+OVER+BUGS...+CLEARING+DISTRIBUTED+PIPELINES!;POWER-UP%3A+FAST-MCP+%26+AUTONOMOUS+AI+AGENTS!" alt="Mario Retro Typing" />
+<img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=13&pause=1000&color=FCD116&center=true&vCenter=true&width=650&lines=IT%27S-A-ME%2C+ROUSHNI%21;COLLECTING+COMMITS+LIKE+COINS+IN+WORLD+1-1;JUMPING+OVER+BUGS...+CLEARING+DISTRIBUTED+PIPELINES%21;POWER-UP%3A+FAST-MCP+%26+AUTONOMOUS+AI+AGENTS%21" alt="Mario Retro Typing" />
 
 <p align="center">
   <a href="https://www.linkedin.com/in/roushni-sinha-486364204">
@@ -55,6 +55,18 @@ Hello! I’m an **Emerging Technology Expert & Software Engineer** specializing 
 ---
 
 <img src="https://raw.githubusercontent.com/RoushniSinha/RoushniSinha/main/mario-scene-divider.svg" width="100%" alt="Mario Animated Hills & Goomba Divider" />
+
+---
+
+## 🐍 Contribution Snake (Animated)
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RoushniSinha/RoushniSinha/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/RoushniSinha/RoushniSinha/output/github-contribution-grid-snake.svg" />
+    <img alt="GitHub contribution snake animation" src="https://raw.githubusercontent.com/RoushniSinha/RoushniSinha/output/github-contribution-grid-snake.svg" width="100%" />
+  </picture>
+</div>
 
 ---
 

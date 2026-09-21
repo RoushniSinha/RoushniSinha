@@ -1,22 +1,84 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="220" viewBox="0 0 900 220" role="img" aria-label="Roushni Sinha resume card">
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300" role="img" aria-label="Roushni Sinha Mario-style profile card">
   <defs>
-    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
-      <stop offset="0%" stop-color="#1b1b3f"/>
-      <stop offset="50%" stop-color="#2d1b69"/>
-      <stop offset="100%" stop-color="#0b2f45"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#08080a"/>
+      <stop offset="100%" stop-color="#151320"/>
     </linearGradient>
-    <linearGradient id="accent" x1="0" x2="1">
-      <stop offset="0%" stop-color="#fcd116"/>
-      <stop offset="100%" stop-color="#e52521"/>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1f1b2f"/>
+      <stop offset="100%" stop-color="#12101c"/>
     </linearGradient>
+    <style>
+      .pixel { shape-rendering: crispEdges; }
+      .hud { font: 700 14px 'Courier New', monospace; letter-spacing: 1px; }
+      .title { font: 700 33px 'Courier New', monospace; letter-spacing: 1.5px; }
+      .subtitle { font: 700 15px 'Courier New', monospace; }
+      .label { font: 700 12px 'Courier New', monospace; }
+      .body { font: 700 11px 'Courier New', monospace; }
+      .pill { font: 700 10px 'Courier New', monospace; }
+      .coin { animation: spin 1.2s steps(2, end) infinite; transform-box: fill-box; transform-origin: center; }
+      .spark { animation: pulse 1.8s ease-in-out infinite; }
+      .cursor { animation: blink 0.9s step-end infinite; }
+      @keyframes spin { 0% { transform: translateY(0px) scale(1); } 50% { transform: translateY(-3px) scale(1.08); } 100% { transform: translateY(0px) scale(1); } }
+      @keyframes pulse { 0%, 100% { opacity: .35; } 50% { opacity: 1; } }
+      @keyframes blink { 0%, 48% { opacity: 1; } 50%, 100% { opacity: 0; } }
+    </style>
   </defs>
-  <rect width="900" height="220" rx="18" fill="url(#bg)"/>
-  <rect x="18" y="18" width="864" height="184" rx="14" fill="none" stroke="#fcd116" stroke-width="4"/>
-  <rect x="40" y="42" width="190" height="130" rx="12" fill="#f5f7ff" opacity="0.08"/>
-  <circle cx="130" cy="92" r="52" fill="url(#accent)" opacity="0.95"/>
-  <path d="M100 110 L118 92 L141 92 L156 108 L156 128 L100 128 Z" fill="#fff" opacity="0.9"/>
-  <text x="260" y="88" fill="#fcd116" font-size="34" font-family="Verdana, sans-serif" font-weight="700">ROUSHNI SINHA</text>
-  <text x="260" y="118" fill="#eaf3ff" font-size="18" font-family="Verdana, sans-serif">Software Engineer • AI Systems • Cloud</text>
-  <text x="260" y="148" fill="#b7d4ff" font-size="16" font-family="Verdana, sans-serif">MCA • Full-stack • Distributed Backends</text>
-  <text x="260" y="176" fill="#9ef7c5" font-size="16" font-family="Verdana, sans-serif">Portfolio • LinkedIn • GitHub</text>
+
+  <rect width="900" height="300" rx="12" fill="url(#bg)"/>
+  <rect class="pixel" x="12" y="12" width="876" height="276" fill="none" stroke="#fcd116" stroke-width="4"/>
+
+  <rect class="pixel" x="28" y="24" width="844" height="28" fill="#0e0e12" stroke="#2f2c44" stroke-width="2"/>
+  <text x="42" y="43" class="hud" fill="#fcd116">PLAYER 1</text>
+  <text x="180" y="43" class="hud" fill="#ffffff">ROUSHNI SINHA</text>
+  <text x="470" y="43" class="hud" fill="#62d8ff">WORLD AI-SDE</text>
+  <text x="650" y="43" class="hud" fill="#8cff89">LIVES x 99</text>
+
+  <g class="coin" transform="translate(806 28)">
+    <rect x="0" y="0" width="16" height="16" fill="#fcd116" stroke="#b77a00" stroke-width="2"/>
+    <rect x="6" y="3" width="4" height="10" fill="#ffe98b"/>
+  </g>
+
+  <rect class="pixel" x="36" y="68" width="404" height="206" fill="url(#panel)" stroke="#2f2c44" stroke-width="2"/>
+  <text x="52" y="100" class="title" fill="#f7f1cf">ROUSHNI SINHA</text>
+  <text x="52" y="126" class="subtitle" fill="#7bf0ff">AI + SOFTWARE ENGINEERING SPECIALIST</text>
+  <text x="52" y="150" class="subtitle" fill="#b8ffc8">MCA '26 • DISTRIBUTED SYSTEMS • CLOUD</text>
+
+  <rect class="pixel" x="52" y="166" width="372" height="90" fill="#101420" stroke="#21406d" stroke-width="2"/>
+  <text x="66" y="188" class="label" fill="#fcd116">QUEST LOG</text>
+  <text x="66" y="208" class="body" fill="#ffffff">&gt; BUILDING FAST MCP TOOLS + AUTONOMOUS AGENTS</text>
+  <text x="66" y="226" class="body" fill="#ffffff">&gt; SCALING RESILIENT BACKENDS + OBSERVABILITY</text>
+  <text x="66" y="244" class="body" fill="#ffffff">&gt; 20+ PROJECTS, HACKATHONS, CLOUD SHIPMENTS</text>
+  <rect class="cursor" x="395" y="235" width="10" height="5" fill="#8cff89"/>
+
+  <rect class="pixel" x="458" y="68" width="406" height="98" fill="#141422" stroke="#3e3458" stroke-width="2"/>
+  <text x="474" y="91" class="label" fill="#fcd116">CASTLES / PROJECTS</text>
+  <text x="474" y="111" class="body" fill="#ffffff">AEGISOPS • ADAPTIVE MODEL ROUTER • TRAVELBUS</text>
+  <text x="474" y="129" class="body" fill="#ffffff">TELEMETRY PIPELINE • CNCF-ARCHITECT PRO • QUICKAI</text>
+  <text x="474" y="147" class="body" fill="#7bf0ff">FLAGSHIPS: MULTI-AGENT OPS, CLOUD AI, FULL-STACK</text>
+
+  <rect class="pixel" x="458" y="176" width="406" height="98" fill="#141422" stroke="#3e3458" stroke-width="2"/>
+  <text x="474" y="199" class="label" fill="#fcd116">TECH POWER-UPS</text>
+
+  <g transform="translate(474 209)">
+    <rect class="pixel" x="0" y="0" width="66" height="20" rx="4" fill="#0f2b48" stroke="#2f7cc5"/><text x="9" y="14" class="pill" fill="#d6f1ff">FASTMCP</text>
+    <rect class="pixel" x="74" y="0" width="70" height="20" rx="4" fill="#2c1c0c" stroke="#b26c1d"/><text x="85" y="14" class="pill" fill="#ffe0b3">PYTHON</text>
+    <rect class="pixel" x="152" y="0" width="80" height="20" rx="4" fill="#231232" stroke="#8b53b6"/><text x="164" y="14" class="pill" fill="#f0d9ff">REACT.JS</text>
+    <rect class="pixel" x="240" y="0" width="58" height="20" rx="4" fill="#122a12" stroke="#38a142"/><text x="251" y="14" class="pill" fill="#d3ffd7">GCP</text>
+    <rect class="pixel" x="306" y="0" width="84" height="20" rx="4" fill="#2d1010" stroke="#c04d4d"/><text x="317" y="14" class="pill" fill="#ffd8d8">DOCKER</text>
+
+    <rect class="pixel" x="0" y="28" width="94" height="20" rx="4" fill="#14293a" stroke="#3f8ccf"/><text x="10" y="42" class="pill" fill="#d6f1ff">KUBERNETES</text>
+    <rect class="pixel" x="102" y="28" width="96" height="20" rx="4" fill="#1f142f" stroke="#8f63ba"/><text x="112" y="42" class="pill" fill="#ead8ff">OPEN TELEMETRY</text>
+    <rect class="pixel" x="206" y="28" width="102" height="20" rx="4" fill="#2d1a0f" stroke="#c4873d"/><text x="216" y="42" class="pill" fill="#ffe1c5">DISTRIBUTED SYS</text>
+    <rect class="pixel" x="316" y="28" width="74" height="20" rx="4" fill="#102919" stroke="#3da965"/><text x="327" y="42" class="pill" fill="#d7ffe2">AGENTS</text>
+  </g>
+
+  <g class="spark" fill="#fcd116">
+    <rect x="430" y="83" width="4" height="12"/>
+    <rect x="426" y="87" width="12" height="4"/>
+  </g>
+  <g class="spark" fill="#7bf0ff" style="animation-delay:.5s">
+    <rect x="846" y="84" width="4" height="12"/>
+    <rect x="842" y="88" width="12" height="4"/>
+  </g>
 </svg>
