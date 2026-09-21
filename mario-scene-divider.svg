@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="120" viewBox="0 0 900 120" role="img" aria-label="Mario animated divider">
+  <defs>
+    <linearGradient id="sky" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#87b9ff"/>
+      <stop offset="100%" stop-color="#dff5ff"/>
+    </linearGradient>
+    <style>
+      .hill1 { animation: slide1 11s ease-in-out infinite alternate; }
+      .hill2 { animation: slide2 9s ease-in-out infinite alternate; }
+      .goomba { animation: bounce 1.4s ease-in-out infinite; }
+      @keyframes slide1 { 0% { transform: translateX(0px); } 100% { transform: translateX(12px); } }
+      @keyframes slide2 { 0% { transform: translateX(0px); } 100% { transform: translateX(-12px); } }
+      @keyframes bounce { 0%,100% { transform: translateY(0px); } 50% { transform: translateY(-8px); } }
+    </style>
+  </defs>
+
+  <rect width="900" height="120" fill="url(#sky)"/>
+
+  <g class="hill1">
+    <path d="M0 76 C100 28, 180 26, 260 76 L260 120 L0 120 Z" fill="#1ab12d"/>
+    <path d="M240 82 C330 20, 470 20, 560 82 L560 120 L240 120 Z" fill="#18a02f"/>
+  </g>
+
+  <g class="hill2">
+    <path d="M500 82 C570 42, 650 42, 730 82 L730 120 L500 120 Z" fill="#0e8f25"/>
+    <path d="M680 84 C760 38, 860 38, 900 84 L900 120 L680 120 Z" fill="#19a739"/>
+  </g>
+
+  <g class="goomba" transform="translate(760,72)">
+    <rect x="0" y="8" width="24" height="12" fill="#8f4d1d"/>
+    <rect x="2" y="0" width="20" height="10" fill="#9d5a29"/>
+    <rect x="6" y="-4" width="12" height="8" fill="#d5864a"/>
+    <rect x="6" y="12" width="4" height="8" fill="#4c2a12"/>
+    <rect x="14" y="12" width="4" height="8" fill="#4c2a12"/>
+  </g>
+
+  <rect y="112" width="900" height="8" fill="#8d4c1c"/>
+</svg>
