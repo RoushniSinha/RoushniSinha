@@ -1,33 +1,32 @@
 <div align="center">
 
-<!-- 🍄 MARIO WORLD 1-1 DAY-EVENING-NIGHT ANIMATED BANNER -->
-<img src="https://raw.githubusercontent.com/RoushniSinha/RoushniSinha/main/mario-world.svg" width="100%" alt="Roushni Sinha Super Mario World Banner" />
+<!-- ⚪⚫ POKÉMON-INSPIRED SPARKLING MONOCHROME BANNER -->
+<img src="https://raw.githubusercontent.com/RoushniSinha/RoushniSinha/main/pokemon-banner.svg" width="100%" alt="Roushni Sinha Pokémon Trainer Banner" />
 
 <br/>
 
-<!-- 🪙 MARIO LEVEL HUD & RETRO PIXEL RUNNER -->
+<!-- TRAINER STATUS BADGES -->
 <p align="center">
-  <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/poke-ball.png" width="0" />
-  <img src="https://img.shields.io/badge/PLAYER-ROUSHNI-e52521?style=for-the-badge&logo=nintendo&logoColor=white" />
-  <img src="https://img.shields.io/badge/COINS-x99-fcd116?style=for-the-badge&logoColor=black" />
-  <img src="https://img.shields.io/badge/WORLD-1--1_SDE-00a800?style=for-the-badge&logoColor=white" />
-  <img src="https://img.shields.io/badge/POWER--UP-STAR_MAN-00f0ff?style=for-the-badge&logoColor=black" />
+  <img src="https://img.shields.io/badge/TRAINER-ROUSHNI-111111?style=for-the-badge&logo=pokemon&logoColor=white" />
+  <img src="https://img.shields.io/badge/POKÉDEX-DYNAMIC-f5f5f5?style=for-the-badge&logoColor=111111" />
+  <img src="https://img.shields.io/badge/REGION-CLOUD_&_AI-222222?style=for-the-badge&logoColor=white" />
+  <img src="https://img.shields.io/badge/BATTLE_MODE-MULTI_AGENT-ffffff?style=for-the-badge&logoColor=111111" />
 </p>
 
-<!-- 8-BIT TYPEWRITER LEVEL ANNOUNCEMENT -->
-<img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=13&pause=1000&color=FCD116&center=true&vCenter=true&width=650&lines=IT%27S-A-ME%2C+ROUSHNI%21;COLLECTING+COMMITS+LIKE+COINS+IN+WORLD+1-1;JUMPING+OVER+BUGS...+CLEARING+DISTRIBUTED+PIPELINES%21;POWER-UP%3A+FAST-MCP+%26+AUTONOMOUS+AI+AGENTS%21" alt="Mario Retro Typing" />
+<!-- DYNAMIC INTRO -->
+<img src="https://readme-typing-svg.demolab.com?font=Montserrat&size=20&pause=1200&color=111111&center=true&vCenter=true&width=860&lines=Hi%2C+I%E2%80%99m+Roushni+Sinha+%F0%9F%91%8B;Pok%C3%A9mon-themed+engineer+building+autonomous+AI+systems;Training+resilient+distributed+cloud+backends+for+scale;Current+focus%3A+FastMCP+tools+%26+multi-agent+workflows" alt="Pokémon Profile Typing" />
 
 <p align="center">
   <a href="https://www.linkedin.com/in/roushni-sinha-486364204">
-    <img src="https://img.shields.io/badge/WARP_TO-LINKEDIN-0077b5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    <img src="https://img.shields.io/badge/CONNECT-LINKEDIN-0077b5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   &nbsp;&nbsp;
   <a href="mailto:roushnisinha111@gmail.com">
-    <img src="https://img.shields.io/badge/FIRE_SIGNAL-EMAIL-e52521?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+    <img src="https://img.shields.io/badge/TRAINER_MAIL-EMAIL-e52521?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
   &nbsp;&nbsp;
   <a href="https://github.com/RoushniSinha/RoushniSinha.github.io">
-    <img src="https://img.shields.io/badge/CASTLE_PAGE-PORTFOLIO-00a800?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio" />
+    <img src="https://img.shields.io/badge/PORTFOLIO-PORTFOLIO-00a800?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio" />
   </a>
 </p>
 
@@ -35,26 +34,26 @@
 
 ---
 
-## 🍄 About Me (Player 1 Story)
+## ⚪⚫ About Me (Trainer Profile)
 
 Hello! I’m an **Emerging Technology Expert & Software Engineer** specializing in autonomous AI systems, low-latency distributed backends, and cloud platforms.
 
 - 🎓 Completed my **Master of Computer Applications (MCA '26)** at **Patna Women's College (PWC)**.
-- 🏰 Live Portfolio: **[Roushni's Portfolio Castle](https://github.com/RoushniSinha/RoushniSinha.github.io)**
-- ⚡ **Active Quest:** Building FastMCP tools, resilient distributed backends, and multi-agent systems with human-in-the-loop safeguards.
+- 🏰 Live Portfolio: **[Roushni's Portfolio](https://github.com/RoushniSinha/RoushniSinha.github.io)**
+- ⚡ **Current Mission:** Building FastMCP tools, resilient distributed backends, and multi-agent systems with human-in-the-loop safeguards.
 
 ---
 
-## 📄 Live 8-Bit Interactive Resume
+## 📄 Live Interactive Resume
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/RoushniSinha/RoushniSinha/main/resume-card.svg" width="100%" alt="Roushni Sinha Mario 8-Bit Resume Card" />
+  <img src="https://raw.githubusercontent.com/RoushniSinha/RoushniSinha/main/resume-card.svg" width="100%" alt="Roushni Sinha Interactive Resume Card" />
 </div>
 
 ---
 ---
 
-<img src="https://raw.githubusercontent.com/RoushniSinha/RoushniSinha/main/mario-scene-divider.svg" width="100%" alt="Mario Animated Hills & Goomba Divider" />
+<img src="https://raw.githubusercontent.com/RoushniSinha/RoushniSinha/main/pokemon-divider.svg" width="100%" alt="Pokémon Spark Divider" />
 
 ---
 
@@ -70,84 +69,84 @@ Hello! I’m an **Emerging Technology Expert & Software Engineer** specializing 
 
 ---
 
-## 🏰 World Castles (Featured Flagships & Projects)
+## 🏟️ Pokémon League Projects (Featured Flagships)
 
 <table>
   <tr>
     <td width="50%" valign="top">
       <h3>
-        <img src="https://raw.githubusercontent.com/mlteal/custom-emoji/master/icons/mario-coin.gif" width="18" />
-        🥇 Castle 1: AegisOps
+        ⚪
+        🥇 Gym 1: AegisOps
       </h3>
       <p><b>Autonomous B2B Logistics Multi-Step Orchestrator</b></p>
       <p>Autonomous load reassignment engine with Gemini function calling, an immutable Firestore ledger, and human-in-the-loop circuit breakers.</p>
-      <p><b>Power-Ups:</b> <code>Gemini 1.5</code> • <code>FastMCP</code> • <code>Cloud Run</code> • <code>Firestore</code> • <code>OpenTelemetry</code></p>
+      <p><b>Move Set:</b> <code>Gemini 1.5</code> • <code>FastMCP</code> • <code>Cloud Run</code> • <code>Firestore</code> • <code>OpenTelemetry</code></p>
       <p>
-        <a href="https://github.com/RoushniSinha?tab=repositories"><b>🚩 Warp to Repo</b></a>
+        <a href="https://github.com/RoushniSinha?tab=repositories"><b>🔗 View Repository</b></a>
       </p>
     </td>
     <td width="50%" valign="top">
       <h3>
-        <img src="https://raw.githubusercontent.com/mlteal/custom-emoji/master/icons/mario-coin.gif" width="18" />
-        🥈 Castle 2: Adaptive Model Router
+        ⚪
+        🥈 Gym 2: Adaptive Model Router
       </h3>
       <p><b>MCP-Compliant Dynamic Inference Routing Agent</b></p>
       <p>Dynamic routing agent evaluating semantic complexity, context sizing, and token throughput between SLMs and frontier LLMs.</p>
-      <p><b>Power-Ups:</b> <code>PyTorch</code> • <code>FastMCP</code> • <code>Transformers</code> • <code>Redis</code> • <code>Python</code></p>
+      <p><b>Move Set:</b> <code>PyTorch</code> • <code>FastMCP</code> • <code>Transformers</code> • <code>Redis</code> • <code>Python</code></p>
       <p>
-        <a href="https://github.com/RoushniSinha?tab=repositories"><b>🚩 Warp to Repo</b></a>
+        <a href="https://github.com/RoushniSinha?tab=repositories"><b>🔗 View Repository</b></a>
       </p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
       <h3>
-        <img src="https://raw.githubusercontent.com/mlteal/custom-emoji/master/icons/mario-coin.gif" width="18" />
-        🥉 Castle 3: TravelBus Platform
+        ⚪
+        🥉 Gym 3: TravelBus Platform
       </h3>
       <p><b>High-Concurrency Inter-City Booking Platform</b></p>
       <p>Full-stack reservation platform supporting 1,000+ concurrent users with optimistic locking and HMAC-SHA256 webhook verification.</p>
-      <p><b>Power-Ups:</b> <code>React.js</code> • <code>Node.js</code> • <code>MongoDB Atlas</code> • <code>Firebase</code> • <code>Razorpay</code></p>
+      <p><b>Move Set:</b> <code>React.js</code> • <code>Node.js</code> • <code>MongoDB Atlas</code> • <code>Firebase</code> • <code>Razorpay</code></p>
       <p>
-        <a href="https://github.com/RoushniSinha?tab=repositories"><b>🚩 Warp to Repo</b></a>
+        <a href="https://github.com/RoushniSinha?tab=repositories"><b>🔗 View Repository</b></a>
       </p>
     </td>
     <td width="50%" valign="top">
       <h3>
-        <img src="https://raw.githubusercontent.com/mlteal/custom-emoji/master/icons/mario-coin.gif" width="18" />
-        🔬 Castle 4: Telemetry Pipeline
+        ⚪
+        🔬 Gym 4: Telemetry Pipeline
       </h3>
       <p><b>Distributed Observability & Trace Analysis Engine</b></p>
       <p>Automated pipeline parsing 5,000+ daily logs and traces into structured OpenTelemetry schemas using containerized models.</p>
-      <p><b>Power-Ups:</b> <code>Python</code> • <code>Llama 3.2</code> • <code>Hugging Face</code> • <code>Docker</code> • <code>FastAPI</code></p>
+      <p><b>Move Set:</b> <code>Python</code> • <code>Llama 3.2</code> • <code>Hugging Face</code> • <code>Docker</code> • <code>FastAPI</code></p>
       <p>
-        <a href="https://github.com/RoushniSinha?tab=repositories"><b>🚩 Warp to Repo</b></a>
+        <a href="https://github.com/RoushniSinha?tab=repositories"><b>🔗 View Repository</b></a>
       </p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
       <h3>
-        <img src="https://raw.githubusercontent.com/mlteal/custom-emoji/master/icons/mario-coin.gif" width="18" />
-        🤖 Castle 5: CNCF-Architect Pro
+        ⚪
+        🤖 Gym 5: CNCF-Architect Pro
       </h3>
       <p><b>Autonomous Repository Analysis Multi-Agent Framework</b></p>
       <p>Multi-agent AI architecture scanning repositories to synthesize deployment configurations, architectural trade-offs, and dependency graphs.</p>
-      <p><b>Power-Ups:</b> <code>Next.js</code> • <code>Gemini 1.5 Flash</code> • <code>Supabase</code> • <code>TypeScript</code> • <code>Vercel</code></p>
+      <p><b>Move Set:</b> <code>Next.js</code> • <code>Gemini 1.5 Flash</code> • <code>Supabase</code> • <code>TypeScript</code> • <code>Vercel</code></p>
       <p>
-        <a href="https://github.com/RoushniSinha?tab=repositories"><b>🚩 Warp to Repo</b></a>
+        <a href="https://github.com/RoushniSinha?tab=repositories"><b>🔗 View Repository</b></a>
       </p>
     </td>
     <td width="50%" valign="top">
       <h3>
-        <img src="https://raw.githubusercontent.com/mlteal/custom-emoji/master/icons/mario-coin.gif" width="18" />
-        ⚡ Castle 6: QuickAI Platform
+        ⚪
+        ⚡ Gym 6: QuickAI Platform
       </h3>
       <p><b>Full-Stack AI Multi-Service Content Studio SaaS</b></p>
       <p>End-to-end generative content platform integrating Clerk authentication, managed media pipelines, and scalable subscription flows.</p>
-      <p><b>Power-Ups:</b> <code>React.js</code> • <code>Node.js</code> • <code>Clerk Auth</code> • <code>Cloudinary</code> • <code>Stripe</code></p>
+      <p><b>Move Set:</b> <code>React.js</code> • <code>Node.js</code> • <code>Clerk Auth</code> • <code>Cloudinary</code> • <code>Stripe</code></p>
       <p>
-        <a href="https://github.com/RoushniSinha?tab=repositories"><b>🚩 Warp to Repo</b></a>
+        <a href="https://github.com/RoushniSinha?tab=repositories"><b>🔗 View Repository</b></a>
       </p>
     </td>
   </tr>
@@ -155,7 +154,7 @@ Hello! I’m an **Emerging Technology Expert & Software Engineer** specializing 
 
 ---
 
-## 🧰 Power-Up Inventory (Technical Stack)
+## 🧰 Move Inventory (Technical Stack)
 
 ```ini
 [Frontend & Web Modules]
@@ -167,7 +166,7 @@ Backend & APIs    = Node.js, Express.js, Java Backend, REST APIs, Webhooks
 Databases         = MongoDB Atlas, PostgreSQL, Firebase Firestore, Supabase, Redis
 Core Foundations  = Data Structures & Algorithms (DSA), System Design, Concurrency
 
-[Cloud & AI Fireflowers]
+[Cloud & AI Systems]
 Cloud Platforms   = Google Cloud Platform (GCP), Microsoft Azure, Vercel
 Agentic AI        = FastMCP, ReAct Loops, Gemini Function Calling, PyTorch, Transformers
 DevOps & Tooling  = Docker, Kubernetes, GitHub Actions CI/CD, Git, Linux
@@ -178,7 +177,7 @@ Telemetry         = OpenTelemetry, Distributed Tracing, Blockchain Architecture
 ```
 
 
-## 🏆 Quest Trophies & Official Recognitions
+## 🏆 League Trophies & Official Recognitions
 
 <table>
   <tr>
@@ -221,29 +220,29 @@ Telemetry         = OpenTelemetry, Distributed Tracing, Blockchain Architecture
 
 ---
 
-## 🟢 Warp Pipes (Multiplayer Connect)
+## 🟢 Trainer Network (Connect)
 
 <div align="center">
 
 <p>
   <a href="https://www.linkedin.com/in/roushni-sinha-486364204">
-    <img src="https://img.shields.io/badge/WARP_PIPE-LINKEDIN-0077b5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    <img src="https://img.shields.io/badge/CONNECT-LINKEDIN-0077b5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   &nbsp;&nbsp;
   <a href="https://twitter.com/roushni_sinha">
-    <img src="https://img.shields.io/badge/WARP_SHELL-TWITTER%20%2F%20X-000000?style=for-the-badge&logo=x&logoColor=white" alt="Twitter/X" />
+    <img src="https://img.shields.io/badge/FOLLOW-TWITTER%20%2F%20X-000000?style=for-the-badge&logo=x&logoColor=white" alt="Twitter/X" />
   </a>
   &nbsp;&nbsp;
   <a href="mailto:roushnisinha111@gmail.com">
-    <img src="https://img.shields.io/badge/FIRE_SIGNAL-EMAIL-e52521?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+    <img src="https://img.shields.io/badge/TRAINER_MAIL-EMAIL-e52521?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
   &nbsp;&nbsp;
   <a href="https://github.com/RoushniSinha/RoushniSinha.github.io">
-    <img src="https://img.shields.io/badge/PEACH'S_CASTLE-PORTFOLIO-00a800?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio" />
+    <img src="https://img.shields.io/badge/PORTFOLIO-PORTFOLIO-00a800?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio" />
   </a>
 </p>
 
-<!-- BRICK FLOOR FOOTER -->
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:b84418,50:d85018,100:b84418&height=25&section=footer" width="100%" alt="Brick Ground" />
+<!-- MONOCHROME THEMED FOOTER -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:ffffff,50:222222,100:ffffff&height=25&section=footer" width="100%" alt="Monochrome Spark Footer" />
 
 </div>
