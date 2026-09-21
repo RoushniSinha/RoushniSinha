@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="220" viewBox="0 0 900 220" role="img" aria-label="Roushni Sinha resume card">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#1b1b3f"/>
+      <stop offset="50%" stop-color="#2d1b69"/>
+      <stop offset="100%" stop-color="#0b2f45"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" x2="1">
+      <stop offset="0%" stop-color="#fcd116"/>
+      <stop offset="100%" stop-color="#e52521"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="220" rx="18" fill="url(#bg)"/>
+  <rect x="18" y="18" width="864" height="184" rx="14" fill="none" stroke="#fcd116" stroke-width="4"/>
+  <rect x="40" y="42" width="190" height="130" rx="12" fill="#f5f7ff" opacity="0.08"/>
+  <circle cx="130" cy="92" r="52" fill="url(#accent)" opacity="0.95"/>
+  <path d="M100 110 L118 92 L141 92 L156 108 L156 128 L100 128 Z" fill="#fff" opacity="0.9"/>
+  <text x="260" y="88" fill="#fcd116" font-size="34" font-family="Verdana, sans-serif" font-weight="700">ROUSHNI SINHA</text>
+  <text x="260" y="118" fill="#eaf3ff" font-size="18" font-family="Verdana, sans-serif">Software Engineer • AI Systems • Cloud</text>
+  <text x="260" y="148" fill="#b7d4ff" font-size="16" font-family="Verdana, sans-serif">MCA • Full-stack • Distributed Backends</text>
+  <text x="260" y="176" fill="#9ef7c5" font-size="16" font-family="Verdana, sans-serif">Portfolio • LinkedIn • GitHub</text>
+</svg>
