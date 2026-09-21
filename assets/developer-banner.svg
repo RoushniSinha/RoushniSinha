@@ -1,68 +1,57 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" role="img" aria-labelledby="title subtitle">
+<svg xmlns="http://www.w3.org/2000/svg" width="1020" height="400" viewBox="0 0 1020 400" role="img" aria-labelledby="title desc">
   <title id="title">Roushni Sinha developer banner</title>
-  <desc id="subtitle">Minecraft-inspired animated village biome scene with developer title and subtitle.</desc>
+  <desc id="desc">Colorful neo-brutalist developer banner with profile portrait and collage cards.</desc>
+
   <defs>
-    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#87ceeb"/>
-      <stop offset="100%" stop-color="#cdefff"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#7d7bff"/>
+      <stop offset="38%" stop-color="#ff7bd5"/>
+      <stop offset="70%" stop-color="#ffc95d"/>
+      <stop offset="100%" stop-color="#7bf4d5"/>
     </linearGradient>
-    <pattern id="dirt" width="24" height="24" patternUnits="userSpaceOnUse">
-      <rect width="24" height="24" fill="#8b5a2b"/>
-      <rect width="12" height="12" fill="#7a4f25"/>
-      <rect x="12" y="12" width="12" height="12" fill="#6b431f"/>
-      <rect x="4" y="14" width="6" height="6" fill="#9c6a35"/>
-      <rect x="14" y="4" width="6" height="6" fill="#9c6a35"/>
-    </pattern>
-    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#000" flood-opacity="0.35"/>
+    <filter id="cardShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="0" flood-color="#111" flood-opacity="1"/>
     </filter>
   </defs>
 
-  <rect width="1200" height="320" fill="url(#sky)"/>
-
-  <g opacity="0.9">
-    <rect x="90" y="40" width="60" height="20" fill="#ffffff"/>
-    <rect x="130" y="30" width="40" height="20" fill="#ffffff"/>
-    <rect x="170" y="40" width="60" height="20" fill="#ffffff"/>
-    <animateTransform attributeName="transform" type="translate" values="0 0; 20 0; 0 0" dur="12s" repeatCount="indefinite"/>
-  </g>
-  <g opacity="0.85">
-    <rect x="840" y="52" width="58" height="18" fill="#ffffff"/>
-    <rect x="876" y="42" width="38" height="18" fill="#ffffff"/>
-    <rect x="914" y="52" width="58" height="18" fill="#ffffff"/>
-    <animateTransform attributeName="transform" type="translate" values="0 0; -24 0; 0 0" dur="14s" repeatCount="indefinite"/>
-  </g>
-
-  <rect x="0" y="210" width="1200" height="26" fill="#5da349"/>
-  <rect x="0" y="236" width="1200" height="84" fill="url(#dirt)"/>
+  <rect width="1020" height="400" rx="26" fill="url(#bg)"/>
+  <rect x="14" y="14" width="992" height="372" rx="20" fill="#fffef7" stroke="#111" stroke-width="4"/>
 
   <g>
-    <rect x="70" y="148" width="18" height="62" fill="#6d4c41"/>
-    <rect x="44" y="126" width="70" height="22" fill="#2e7d32"/>
-    <rect x="36" y="104" width="86" height="22" fill="#388e3c"/>
-  </g>
-  <g>
-    <rect x="1080" y="152" width="16" height="58" fill="#6d4c41"/>
-    <rect x="1056" y="130" width="64" height="22" fill="#2e7d32"/>
-    <rect x="1048" y="108" width="80" height="22" fill="#388e3c"/>
-  </g>
-
-  <g filter="url(#shadow)">
-    <rect x="905" y="142" width="150" height="68" fill="#b98a4d"/>
-    <polygon points="890,142 980,96 1070,142" fill="#8d6e63"/>
-    <rect x="967" y="162" width="26" height="48" fill="#5d4037"/>
-    <rect x="928" y="162" width="26" height="20" fill="#90caf9"/>
-    <rect x="1006" y="162" width="26" height="20" fill="#90caf9"/>
+    <rect x="38" y="34" width="120" height="38" rx="10" fill="#00d5ff" stroke="#111" stroke-width="4"/>
+    <text x="98" y="59" text-anchor="middle" font-family="'Arial Black', 'Montserrat', sans-serif" font-size="16" fill="#111">HELLO!</text>
+    <animateTransform attributeName="transform" type="translate" values="0 0; 0 -4; 0 0" dur="3.6s" repeatCount="indefinite"/>
   </g>
 
   <g>
-    <rect x="240" y="176" width="26" height="34" fill="#c68642"/>
-    <rect x="246" y="166" width="14" height="10" fill="#f1c27d"/>
-    <animateTransform attributeName="transform" type="translate" values="0 0; 8 0; 0 0" dur="3s" repeatCount="indefinite"/>
+    <rect x="548" y="306" width="120" height="42" rx="12" fill="#ffd861" stroke="#111" stroke-width="4"/>
+    <text x="608" y="333" text-anchor="middle" font-family="'Arial Black', 'Montserrat', sans-serif" font-size="14" fill="#111">BUILD • SHIP</text>
+    <animateTransform attributeName="transform" type="translate" values="0 0; 0 5; 0 0" dur="4.2s" repeatCount="indefinite"/>
   </g>
 
-  <g fill="#f8f8f8" font-family="'Courier New', monospace" text-anchor="middle" filter="url(#shadow)">
-    <text x="600" y="126" font-size="64" font-weight="700" letter-spacing="4">ROUSHNI SINHA</text>
-    <text x="600" y="164" font-size="24" font-weight="600" letter-spacing="2">BIOME: VILLAGE • SDE &amp; DISTRIBUTED ARCHITECTURES</text>
+  <g fill="#111" font-family="'Arial Black', 'Montserrat', sans-serif">
+    <text x="56" y="146" font-size="72" letter-spacing="1.5">ROUSHNI SINHA</text>
+    <rect x="60" y="168" width="492" height="54" rx="14" fill="#ff6f91" stroke="#111" stroke-width="4"/>
+    <text x="306" y="202" text-anchor="middle" font-size="26" fill="#111" letter-spacing="0.6">SDE • DISTRIBUTED ARCHITECTURES</text>
+    <text x="58" y="262" font-family="'Trebuchet MS', 'Poppins', sans-serif" font-size="25" font-weight="700">Building resilient cloud + AI systems with</text>
+    <text x="58" y="295" font-family="'Trebuchet MS', 'Poppins', sans-serif" font-size="25" font-weight="700">multi-agent workflows and bold product energy.</text>
   </g>
+
+  <g filter="url(#cardShadow)">
+    <rect x="676" y="46" width="292" height="318" rx="18" fill="#ffffff" stroke="#111" stroke-width="5"/>
+    <rect x="624" y="238" width="214" height="138" rx="14" fill="#fffbe4" stroke="#111" stroke-width="5" transform="rotate(-8 731 307)"/>
+  </g>
+
+  <foreignObject x="624" y="46" width="344" height="330">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="position:relative;width:344px;height:330px;font-family:Arial,sans-serif;">
+      <img
+        src="https://raw.githubusercontent.com/RoushniSinha/RoushniSinha/main/assets/profile-photo.png.webp"
+        alt="Portrait of Roushni Sinha"
+        style="position:absolute;left:52px;top:8px;width:260px;height:302px;object-fit:cover;border:5px solid #111;border-radius:14px;background:#f8f8f8;" />
+      <img
+        src="https://raw.githubusercontent.com/RoushniSinha/RoushniSinha/main/assets/aesthetic-collage.png.jpg"
+        alt="Aesthetic collage card"
+        style="position:absolute;left:0px;top:198px;width:196px;height:122px;object-fit:cover;border:4px solid #111;border-radius:10px;background:#fff8e6;transform:rotate(-8deg);" />
+    </div>
+  </foreignObject>
 </svg>
