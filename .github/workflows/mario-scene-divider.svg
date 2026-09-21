@@ -1,0 +1,109 @@
+<svg fill="none" viewBox="0 0 900 85" width="900" height="85" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>
+        @keyframes scrollTerrain {
+          0% { transform: translateX(0); }
+          100% { transform: translateX(-120px); }
+        }
+        @keyframes coinBounce {
+          0%, 100% { transform: translateY(0); }
+          50% { transform: translateY(-6px); }
+        }
+        @keyframes goombaWalk {
+          0% { left: 820px; }
+          100% { left: 40px; }
+        }
+        .divider-bg {
+          width: 900px;
+          height: 85px;
+          background: #5c94fc;
+          position: relative;
+          overflow: hidden;
+          box-sizing: border-box;
+          border-top: 3px solid #000;
+          border-bottom: 3px solid #000;
+        }
+        .hills-layer {
+          position: absolute;
+          bottom: 16px;
+          display: flex;
+          gap: 70px;
+          animation: scrollTerrain 10s linear infinite;
+        }
+        .hill {
+          width: 90px;
+          height: 42px;
+          background: #00a800;
+          border: 3px solid #000;
+          border-bottom: none;
+          border-radius: 45px 45px 0 0;
+        }
+        .blocks-floating {
+          position: absolute;
+          top: 14px;
+          left: 360px;
+          display: flex;
+          gap: 6px;
+        }
+        .q-box {
+          width: 22px;
+          height: 22px;
+          background: #fc9838;
+          border: 2px solid #000;
+          color: #000;
+          font-family: monospace;
+          font-weight: bold;
+          font-size: 13px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          animation: coinBounce 1.4s ease-in-out infinite;
+        }
+        .brick {
+          width: 22px;
+          height: 22px;
+          background: #b84418;
+          border: 2px solid #000;
+        }
+        .goomba {
+          position: absolute;
+          bottom: 16px;
+          width: 18px;
+          height: 18px;
+          background: #9c4a00;
+          border: 2px solid #000;
+          border-radius: 9px 9px 3px 3px;
+          animation: goombaWalk 12s linear infinite;
+        }
+        .ground-line {
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          width: 100%;
+          height: 16px;
+          background: repeating-linear-gradient(45deg, #b84418, #b84418 8px, #8c2e0b 8px, #8c2e0b 16px);
+          border-top: 2px solid #000;
+        }
+      </style>
+      <div class="divider-bg">
+        <div class="hills-layer">
+          <div class="hill"></div>
+          <div class="hill" style="height:30px; width:70px; background:#008800;"></div>
+          <div class="hill"></div>
+          <div class="hill" style="height:50px; width:110px;"></div>
+          <div class="hill"></div>
+          <div class="hill"></div>
+        </div>
+        <div class="blocks-floating">
+          <div class="q-box">?</div>
+          <div class="brick"></div>
+          <div class="q-box" style="animation-delay: 0.2s;">?</div>
+          <div class="brick"></div>
+        </div>
+        <div class="goomba"></div>
+        <div class="ground-line"></div>
+      </div>
+    </div>
+  </foreignObject>
+</svg>
