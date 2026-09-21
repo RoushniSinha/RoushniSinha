@@ -1,0 +1,416 @@
+<svg fill="none" viewBox="0 0 900 240" width="900" height="240" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>
+        @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&amp;display=swap');
+
+        /* ================= DAY -> EVENING -> NIGHT CYCLE ================= */
+        @keyframes dayNightCycle {
+          0%, 30% { /* DAY */
+            background: #5c94fc;
+          }
+          40%, 55% { /* EVENING SUNSET */
+            background: linear-gradient(180deg, #fd5e53 0%, #ff8c42 40%, #ffc048 75%, #4a2840 100%);
+          }
+          65%, 90% { /* STARRY NIGHT */
+            background: linear-gradient(180deg, #050518 0%, #0d1b2a 50%, #1b263b 100%);
+          }
+          100% { /* RETURN TO DAY */
+            background: #5c94fc;
+          }
+        }
+
+        /* SUN & MOON ORBIT */
+        @keyframes sunOrbit {
+          0%, 25% { transform: translate(120px, 35px); opacity: 1; }
+          45% { transform: translate(250px, 120px); opacity: 0.8; }
+          55%, 100% { transform: translate(320px, 200px); opacity: 0; }
+        }
+
+        @keyframes moonOrbit {
+          0%, 55% { transform: translate(750px, 180px); opacity: 0; }
+          65% { transform: translate(720px, 45px); opacity: 1; }
+          85% { transform: translate(660px, 35px); opacity: 1; }
+          100% { transform: translate(600px, 180px); opacity: 0; }
+        }
+
+        /* STARS TWINKLE ONLY AT NIGHT */
+        @keyframes starGlow {
+          0%, 50% { opacity: 0; }
+          65%, 90% { opacity: 0.85; }
+          100% { opacity: 0; }
+        }
+
+        /* CLOUD DRIFT */
+        @keyframes cloudDrift {
+          0% { transform: translateX(0); }
+          50% { transform: translateX(28px); }
+          100% { transform: translateX(0); }
+        }
+
+        /* PIRANHA PLANT BITE */
+        @keyframes piranhaBite {
+          0%, 100% { transform: translateY(18px); }
+          50% { transform: translateY(-16px); }
+        }
+
+        /* MARIO RUN & JUMP CYCLE */
+        @keyframes marioRunAndJump {
+          0% { left: 140px; bottom: 26px; }
+          30% { left: 240px; bottom: 26px; }
+          46% { left: 325px; bottom: 26px; }
+          54% { left: 335px; bottom: 76px; } /* Hits block */
+          62% { left: 350px; bottom: 26px; } /* Lands */
+          85% { left: 450px; bottom: 26px; }
+          100% { left: 560px; bottom: 26px; }
+        }
+
+        /* QUESTION BLOCK BUMP */
+        @keyframes blockBump {
+          0%, 50% { transform: translateY(0); }
+          54% { transform: translateY(-8px); }
+          60%, 100% { transform: translateY(0); }
+        }
+
+        /* COIN POPPING OUT */
+        @keyframes coinPop {
+          0%, 50% { opacity: 0; transform: translateY(0) scale(0.6); }
+          56% { opacity: 1; transform: translateY(-26px) scale(1.2); }
+          66% { opacity: 0; transform: translateY(-46px) scale(0.8); }
+          100% { opacity: 0; }
+        }
+
+        .world-container {
+          width: 900px;
+          height: 240px;
+          position: relative;
+          overflow: hidden;
+          font-family: 'Press Start 2P', monospace;
+          box-sizing: border-box;
+          border-radius: 14px;
+          border: 4px solid #000;
+          animation: dayNightCycle 24s ease-in-out infinite;
+        }
+
+        /* CELESTIAL BODIES */
+        .sun {
+          position: absolute;
+          width: 36px;
+          height: 36px;
+          background: #fcd116;
+          border-radius: 50%;
+          box-shadow: 0 0 16px 6px #ffbe0b;
+          animation: sunOrbit 24s ease-in-out infinite;
+        }
+
+        .moon {
+          position: absolute;
+          width: 30px;
+          height: 30px;
+          border-radius: 50%;
+          box-shadow: 6px 6px 0 0 #f8fafc;
+          animation: moonOrbit 24s ease-in-out infinite;
+        }
+
+        /* PIXEL STARS */
+        .stars-layer {
+          position: absolute;
+          width: 100%;
+          height: 120px;
+          animation: starGlow 24s ease-in-out infinite;
+        }
+        .star {
+          position: absolute;
+          width: 3px;
+          height: 3px;
+          background: #ffffff;
+          box-shadow: 0 0 3px #ffffff;
+        }
+        .s1 { top: 25px; left: 180px; }
+        .s2 { top: 40px; left: 320px; }
+        .s3 { top: 20px; left: 520px; }
+        .s4 { top: 60px; left: 680px; }
+        .s5 { top: 35px; left: 810px; }
+
+        /* CLOUDS */
+        .cloud {
+          position: absolute;
+          background: rgba(255, 255, 255, 0.88);
+          border-radius: 16px;
+          animation: cloudDrift 9s ease-in-out infinite;
+        }
+        .cl-1 { width: 110px; height: 28px; top: 20px; left: 90px; }
+        .cl-2 { width: 135px; height: 32px; top: 36px; right: 130px; animation-duration: 12s; }
+
+        /* ================= MULTI-LAYERED HILLS ================= */
+        /* Distant Mountain Range */
+        .mountain-bg {
+          position: absolute;
+          bottom: 26px;
+          left: 180px;
+          width: 240px;
+          height: 110px;
+          background: #005c28;
+          border-top-left-radius: 120px;
+          border-top-right-radius: 120px;
+          border: 3px solid #000;
+          border-bottom: none;
+          opacity: 0.6;
+        }
+
+        /* Midground Hill */
+        .hill-large {
+          position: absolute;
+          bottom: 26px;
+          left: 40px;
+          width: 170px;
+          height: 95px;
+          background: #008800;
+          border-top-left-radius: 85px;
+          border-top-right-radius: 85px;
+          border: 3px solid #000;
+          border-bottom: none;
+        }
+
+        /* Foreground Front Hill */
+        .hill-front {
+          position: absolute;
+          bottom: 26px;
+          right: 240px;
+          width: 120px;
+          height: 60px;
+          background: #00a800;
+          border-top-left-radius: 60px;
+          border-top-right-radius: 60px;
+          border: 3px solid #000;
+          border-bottom: none;
+        }
+
+        /* Green Warp Pipe */
+        .pipe-top {
+          position: absolute;
+          bottom: 58px;
+          right: 60px;
+          width: 58px;
+          height: 22px;
+          background: #00e800;
+          border: 3px solid #000;
+          border-radius: 3px;
+          z-index: 3;
+        }
+        .pipe-body {
+          position: absolute;
+          bottom: 26px;
+          right: 65px;
+          width: 48px;
+          height: 34px;
+          background: #00a800;
+          border: 3px solid #000;
+          border-bottom: none;
+          z-index: 3;
+        }
+
+        /* Piranha Plant */
+        .piranha {
+          position: absolute;
+          bottom: 74px;
+          right: 74px;
+          width: 30px;
+          height: 32px;
+          background: #e52521;
+          border: 3px solid #000;
+          border-radius: 16px 16px 4px 4px;
+          z-index: 2;
+          animation: piranhaBite 4s ease-in-out infinite;
+        }
+        .piranha-dots {
+          position: absolute;
+          top: 6px;
+          left: 6px;
+          width: 6px;
+          height: 6px;
+          background: #ffffff;
+          border-radius: 50%;
+        }
+
+        /* Question Blocks & Brick Row */
+        .block-row {
+          position: absolute;
+          top: 88px;
+          left: 330px;
+          display: flex;
+          gap: 6px;
+          z-index: 4;
+        }
+        .hit-block {
+          animation: blockBump 4.5s ease-in-out infinite;
+        }
+        .q-box {
+          width: 32px;
+          height: 32px;
+          background: #fc9838;
+          border: 3px solid #000;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-size: 14px;
+          color: #000;
+          box-shadow: inset -2px -2px #b84418, inset 2px 2px #fcd116;
+        }
+        .brick-box {
+          width: 32px;
+          height: 32px;
+          background: #b84418;
+          border: 3px solid #000;
+          box-shadow: inset -2px -2px #5c1800, inset 2px 2px #fc9838;
+        }
+
+        /* Popping Gold Coin */
+        .popped-coin {
+          position: absolute;
+          top: 52px;
+          left: 337px;
+          font-size: 18px;
+          z-index: 6;
+          animation: coinPop 4.5s ease-in-out infinite;
+        }
+
+        /* ================= PURE VECTOR 8-BIT MARIO ================= */
+        .mario-character {
+          position: absolute;
+          width: 32px;
+          height: 40px;
+          z-index: 5;
+          animation: marioRunAndJump 4.5s cubic-bezier(0.25, 1, 0.5, 1) infinite;
+        }
+        .mario-sprite-svg {
+          width: 32px;
+          height: 40px;
+        }
+
+        /* Ground Brick Floor */
+        .floor {
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          width: 100%;
+          height: 26px;
+          background: repeating-linear-gradient(45deg, #b84418, #b84418 12px, #8c2e0b 12px, #8c2e0b 24px);
+          border-top: 4px solid #000;
+          z-index: 6;
+        }
+
+        /* Center Name HUD */
+        .center-hud {
+          position: absolute;
+          top: 14px;
+          left: 50%;
+          transform: translateX(-50%);
+          text-align: center;
+          z-index: 7;
+        }
+        .mario-name {
+          font-size: 24px;
+          color: #ffffff;
+          text-shadow: 3px 3px #000000, -2px -2px #b84418;
+          margin: 0;
+        }
+        .mario-sub {
+          font-size: 9.5px;
+          color: #fcd116;
+          margin-top: 6px;
+          text-shadow: 2px 2px #000000;
+        }
+      </style>
+
+      <div class="world-container">
+        <!-- Day / Night Sky Elements -->
+        <div class="sun"></div>
+        <div class="moon"></div>
+        <div class="stars-layer">
+          <div class="star s1"></div>
+          <div class="star s2"></div>
+          <div class="star s3"></div>
+          <div class="star s4"></div>
+          <div class="star s5"></div>
+        </div>
+
+        <!-- Clouds -->
+        <div class="cloud cl-1"></div>
+        <div class="cloud cl-2"></div>
+
+        <!-- Parallax Hills Layer -->
+        <div class="mountain-bg"></div>
+        <div class="hill-large"></div>
+        <div class="hill-front"></div>
+
+        <!-- Warp Pipe & Animated Piranha Plant -->
+        <div class="piranha"><div class="piranha-dots"></div></div>
+        <div class="pipe-top"></div>
+        <div class="pipe-body"></div>
+
+        <!-- Popping Coin -->
+        <div class="popped-coin">🪙</div>
+
+        <!-- Question & Brick Row -->
+        <div class="block-row">
+          <div class="q-box hit-block">?</div>
+          <div class="brick-box"></div>
+          <div class="q-box">?</div>
+          <div class="brick-box"></div>
+        </div>
+
+        <!-- 🍄 PURE PIXEL VECTOR MARIO -->
+        <div class="mario-character">
+          <svg class="mario-sprite-svg" viewBox="0 0 16 16" shape-rendering="crispEdges">
+            <!-- Cap -->
+            <rect x="3" y="1" width="5" height="1" fill="#e52521" />
+            <rect x="2" y="2" width="9" height="1" fill="#e52521" />
+            <!-- Face / Skin / Hair -->
+            <rect x="2" y="3" width="3" height="1" fill="#6d4c41" />
+            <rect x="5" y="3" width="2" height="1" fill="#ffcc80" />
+            <rect x="7" y="3" width="1" height="1" fill="#000000" />
+            <rect x="8" y="3" width="1" height="1" fill="#ffcc80" />
+            <rect x="1" y="4" width="1" height="3" fill="#6d4c41" />
+            <rect x="2" y="4" width="1" height="1" fill="#6d4c41" />
+            <rect x="3" y="4" width="3" height="1" fill="#ffcc80" />
+            <rect x="6" y="4" width="1" height="1" fill="#6d4c41" />
+            <rect x="7" y="4" width="3" height="1" fill="#ffcc80" />
+            <rect x="2" y="5" width="1" height="1" fill="#6d4c41" />
+            <rect x="3" y="5" width="2" height="1" fill="#ffcc80" />
+            <rect x="5" y="5" width="4" height="1" fill="#6d4c41" />
+            <rect x="9" y="5" width="1" height="1" fill="#ffcc80" />
+            <rect x="3" y="6" width="6" height="1" fill="#ffcc80" />
+            <!-- Overalls / Shirt -->
+            <rect x="2" y="7" width="2" height="3" fill="#e52521" />
+            <rect x="4" y="7" width="3" height="1" fill="#0044cc" />
+            <rect x="7" y="7" width="2" height="3" fill="#e52521" />
+            <rect x="2" y="8" width="7" height="1" fill="#0044cc" />
+            <rect x="4" y="8" width="1" height="1" fill="#fcd116" />
+            <rect x="6" y="8" width="1" height="1" fill="#fcd116" />
+            <rect x="1" y="9" width="9" height="1" fill="#0044cc" />
+            <!-- Hands -->
+            <rect x="0" y="8" width="2" height="2" fill="#ffcc80" />
+            <rect x="9" y="8" width="2" height="2" fill="#ffcc80" />
+            <!-- Legs -->
+            <rect x="3" y="10" width="5" height="2" fill="#0044cc" />
+            <rect x="2" y="12" width="2" height="2" fill="#0044cc" />
+            <rect x="7" y="12" width="2" height="2" fill="#0044cc" />
+            <!-- Shoes -->
+            <rect x="1" y="14" width="3" height="2" fill="#6d4c41" />
+            <rect x="7" y="14" width="3" height="2" fill="#6d4c41" />
+          </svg>
+        </div>
+
+        <!-- Center Name HUD -->
+        <div class="center-hud">
+          <h1 class="mario-name">ROUSHNI SINHA</h1>
+          <p class="mario-sub">WORLD 1-1 • SDE &amp; AI SYSTEMS ARCHITECT</p>
+        </div>
+
+        <!-- Brick Ground Floor -->
+        <div class="floor"></div>
+      </div>
+    </div>
+  </foreignObject>
+</svg>
