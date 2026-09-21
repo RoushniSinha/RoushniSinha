@@ -2,10 +2,6 @@
 
 <div align="center">
 
-<!-- ⚪⚫ POKÉMON-INSPIRED SPARKLING MONOCHROME BANNER -->
-<img src="https://raw.githubusercontent.com/RoushniSinha/RoushniSinha/main/pokemon-banner.svg" width="100%" alt="Roushni Sinha Pokémon Trainer Banner" />
-
-<br/>
 
 <!-- TRAINER STATUS BADGES -->
 <p align="center">
