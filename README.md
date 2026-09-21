@@ -1,3 +1,5 @@
+![Roushni Sinha developer banner](assets/developer-banner.svg)
+
 <div align="center">
 
 <!-- ⚪⚫ POKÉMON-INSPIRED SPARKLING MONOCHROME BANNER -->
