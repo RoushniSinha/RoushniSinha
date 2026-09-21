@@ -52,6 +52,11 @@ Hello! I’m an **Emerging Technology Expert & Software Engineer** specializing 
 </div>
 
 ---
+---
+
+<img src="https://raw.githubusercontent.com/RoushniSinha/RoushniSinha/main/mario-scene-divider.svg" width="100%" alt="Mario Animated Hills & Goomba Divider" />
+
+---
 
 ## 🏰 World Castles (Featured Flagships & Projects)
 
