@@ -67,7 +67,7 @@ Hello! I’m an **Emerging Technology Expert & Software Engineer** specializing 
 
 ---
 
-## 🏟️ Pokémon League Projects (Featured Flagships)
+## 🏟️  League Projects (Featured Flagships)
 
 <table>
   <tr>
